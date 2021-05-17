@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+header {
+  padding: 10px;
+  background: #004175;
+  color: white;
+  font-size: 50px;
+  font-family: Open Sans;
+  border-bottom: #89deef 5px solid;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: start;
+}
+
+.dog {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  font-family: Open Sans;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: Oswald;
+}
+
+li {
+  display: inline-block;
+  background-color: #89deef;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 3px;
+  font-size: small;
+}
